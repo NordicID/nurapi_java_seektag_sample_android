@@ -5,4 +5,4 @@ This repository contains a sample Android application that demonstrates the use 
 ### Features
 - Connect to a Nordic ID RFID reader (HH83 or HH85).
 - Seek the nearest RFID tag using the SeekNearestTag utility.
-- Log various events and statuses during the tag seek process.
+- Log various events and statuses during the tag seek process. These will appear to LogCat.
