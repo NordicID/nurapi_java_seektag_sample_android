@@ -22,8 +22,6 @@ import com.nordicid.nurutils.seektag.NearestTagChangeEventArgs;
 import com.nordicid.nurutils.seektag.SeekNearestTag;
 import com.nordicid.nurutils.seektag.SeekNearestTagListener;
 
-import java.util.concurrent.Executors;
-
 /**
  * This is an example nur api event listener, to handle nur-related event actions.
  * For the sake of simplicity, I will directly use this listener for the referenced SeekNearestTag Utility.
@@ -87,7 +85,7 @@ public class NurApiEventListener implements NurApiListener {
             throw new RuntimeException(e);
         }
         // We can start seek already here since we connected, not most elegant but fine for a sample demo.
-       seekNearestTag.start(); // Tag seek starts and internally a new thread is created where the seek is ongoing. You can stop the seek gracefully by calling seekNearestTag.stop();
+        seekNearestTag.start(); // Tag seek starts and internally a new thread is created where the seek is ongoing. You can stop the seek gracefully by calling seekNearestTag.stop();
     }
 
     @Override
