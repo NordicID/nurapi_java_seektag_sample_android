@@ -11,3 +11,4 @@ This repository contains a sample Android application that demonstrates the use 
 
 - [MainActivity.java](https://github.com/NordicID/nurapi_java_seektag_sample_android/blob/main/src/app/src/main/java/com/example/myapplication/MainActivity.java): The initial setup code to get Nur started and registration of an Nur event listener.
 - [NurApiEventListener.java](https://github.com/NordicID/nurapi_java_seektag_sample_android/blob/main/src/app/src/main/java/com/example/myapplication/NurApiEventListener.java): Used for listening for various Nur api events, for this sample, we use the connected event to start a seek nearest tag.
+- [Libraries](https://github.com/NordicID/nurapi_java_seektag_sample_android/tree/main/src/lib): Contains Nur api libs and the nur-util library that includes the SeekNearestTag functionality.
